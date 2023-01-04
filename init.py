@@ -6,7 +6,7 @@ import os
 # get current directory, on Windows, back slash at the end of the directory
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # config directory
-config_dir = _curdir + "/41123243/"
+config_dir = _curdir + "/cmsite/"
 class Init(object):
     # uwsgi as static class variable, can be accessed by Init.uwsgi
     uwsgi = False
